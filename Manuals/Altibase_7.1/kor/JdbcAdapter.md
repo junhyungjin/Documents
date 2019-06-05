@@ -890,8 +890,7 @@ jdbcAdapter가 구동된 후에 어떤 환경 변수 또는 프로퍼티가 변�
    송신자를 생성한다.
 
 ```
-CREATE REPLICATION ala FOR ANALYSIS WITH '127.0.0.1', 25090
-FROM sys.t1 TO user1.t2;
+CREATE REPLICATION ala FOR ANALYSIS WITH '127.0.0.1', 25090 FROM sys.t1 TO user1.t2;
 ```
 
 ![](media/JdbcAdapter/737c6348cef120d54ff6700f5ed1e795.png)
